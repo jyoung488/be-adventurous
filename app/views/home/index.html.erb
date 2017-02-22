@@ -1,7 +1,11 @@
 <h1>Be Adventurous</h1>
 
-<div class="row valign-wrapper">
+<div class="row">
 <%= react_component('SFPosts', sfposts: @sf_posts) %>
-<%= react_component('Inspiration', insiration: @inspiration) %>
-<%= react_component('Wellness', wellness: @wellness) %>
+</div>
+<div class="row">
+  <%= react_component('Inspiration', inspiration: @inspiration) %>
+</div>
+<div class="row">
+  <%= react_component('Wellness', wellness: @wellness) %>
 </div>
