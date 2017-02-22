@@ -12,7 +12,7 @@ var Wellness = React.createClass({
               <p class="truncate">{post.body}</p>
             </div>
             <div className="card-action">
-              <a href="#">This is a link</a>
+            <a href={"posts/" + post.id}><i className="small material-icons">subject</i></a>
             </div>
           </div>
         </div>
