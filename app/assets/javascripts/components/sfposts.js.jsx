@@ -21,7 +21,7 @@ var SFPosts = React.createClass({
 
     return (
       <div>
-        <h3>Adventures in SF</h3>
+        <h3>Adventures</h3>
         {sfposts}
       </div>
     )

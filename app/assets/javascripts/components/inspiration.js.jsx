@@ -21,7 +21,7 @@ var Inspiration = React.createClass({
 
     return (
       <div>
-        <h3>Be Inspired</h3>
+        <h3>Inspiration</h3>
         {inspiration}
       </div>
     )

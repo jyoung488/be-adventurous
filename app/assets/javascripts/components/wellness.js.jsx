@@ -21,7 +21,7 @@ var Wellness = React.createClass({
 
     return (
       <div>
-        <h3>Be Well</h3>
+        <h3>Wellness</h3>
         {wellness}
       </div>
     )
