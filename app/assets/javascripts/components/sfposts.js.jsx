@@ -12,7 +12,7 @@ var SFPosts = React.createClass({
               <p class="truncate">{post.body}</p>
             </div>
             <div className="card-action">
-              <a href={"posts/" + post.id}><i className="small material-icons">subject</i></a>
+              <a href={"posts/" + post.id} className="waves-effect waves-circle waves-light btn-floating"><i className="material-icons">add</i></a>
             </div>
           </div>
         </div>
