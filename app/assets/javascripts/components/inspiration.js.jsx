@@ -1,6 +1,6 @@
-var SFPosts = React.createClass({
+var Inspiration = React.createClass({
   render: function() {
-    sfposts = this.props.sfposts.map( function(post) {
+    inspiration = this.props.inspiration.map( function(post) {
       return (
         <div className="col s3 m3">
           <div className="card hoverable">
@@ -12,7 +12,7 @@ var SFPosts = React.createClass({
               <p class="truncate">{post.body}</p>
             </div>
             <div className="card-action">
-              <a href={"posts/" + post.id} className="waves-effect waves-circle waves-light btn-floating"><i className="material-icons">add</i></a>
+            <a href={"posts/" + post.id} className="waves-effect waves-circle waves-light btn-floating"><i className="material-icons">add</i></a>
             </div>
           </div>
         </div>
@@ -21,8 +21,8 @@ var SFPosts = React.createClass({
 
     return (
       <div>
-        <h3>Adventures</h3>
-        {sfposts}
+        <h3>Inspiration</h3>
+        {inspiration}
       </div>
     )
   }
