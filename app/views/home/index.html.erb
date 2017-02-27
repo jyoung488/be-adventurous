@@ -1,6 +1,9 @@
 <h1>Be Adventurous</h1>
 
 <div class="row">
+  <%= link_to 'New Post', new_post_path, class: "waves-effect waves-light btn" %>
+</div>
+<div class="row">
 <%= react_component('SFPosts', sfposts: @sf_posts) %>
 </div>
 <div class="row">
