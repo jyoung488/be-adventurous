@@ -14,6 +14,6 @@ feature "create new post" do
 
   scenario "the user sees a form to create new post" do
     visit new_post_path
-    expect(page)to have_button("Submit")
+    expect(page).to have_button("Create Post")
   end
 end
