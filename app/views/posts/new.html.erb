@@ -1,0 +1,12 @@
+<h1>New Post</h1>
+
+<div class="row center-align">
+  <%= form_for @post, html: { class: "col s6"} do |f| %>
+    <div class="input-field">
+      <%= f.text_field :title, placeholder: 'Title', class: "validate" %>
+    </div>
+    <%= f.text_area :body, id: "textarea1", class: "materialize-textarea", placeholder: 'Insert Content Here' %>
+
+    <%= f.submit %>
+  <% end %>
+</div>
